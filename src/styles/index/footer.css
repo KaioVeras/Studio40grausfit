@@ -8,6 +8,12 @@ footer {
     align-items: center;
 }
 
+.title-text-footer {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
 #container-footer {
     display: flex;
     justify-content: flex-start;

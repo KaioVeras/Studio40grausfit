@@ -92,7 +92,7 @@ body {
 .welcome-text {
     display: flex;
     gap: 10px;
-
+    text-align: center;
 }
 
 .welcome-text h1 {
@@ -183,6 +183,10 @@ body {
     margin-top: 50px;
     width: 80%;
     max-width: 600px;
+   }
+
+   .welcome-text {
+    flex-direction: column;
    }
 
    .welcome-text h1 {
