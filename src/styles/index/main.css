@@ -17,7 +17,7 @@ body {
 }
 
 #header {
-    background-image: url(../../assets/backgroudIndex.svg);
+    background-image: url(../../assets/);
     padding: 200px 30px 200px 30px;
     display: flex;
     align-items: center;
@@ -72,12 +72,6 @@ body {
     background-color: #00377B;
     color: #fff;
     border: 2px solid #fff;
-}
-
-.blur {
-    background: linear-gradient(rgba(0, 55, 123, 0.4),  rgba(255, 255, 255, 0.6), rgb(255, 255, 255));
-    height: 80px;
-    margin-top: -30px;
 }
 
 .welcome-section {
