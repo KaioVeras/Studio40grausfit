@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/styles/index/styles.css">
     <link rel="stylesheet" href="src/styles/index/header.css">
     <link rel="stylesheet" href="src/styles/index/main.css">
+    <link rel="stylesheet" href="src/styles/index/footer.css">
 </head>
 <body>
     <header>
@@ -60,11 +61,128 @@
             <div id="header-image"></div>
         </section>
 
-        <section style="height: 700px; background-color: #fff; width: 100%;">
+        <section class="blur">
 
         </section>
+
+        
+        <section class="welcome-section">
+            <div class="welcome-text">
+                <h1>Bem-vindo ao</h1>
+                <h1 id="title-style">Studio40°grausfit</h1>
+            </div>
+
+            <p class="welcome-paragraph">Somos um estúdio especializado que combina treinamento funcional e Muay Thai em um ambiente acolhedor e profissional para todas as idades. Conheça nossos serviços e estrutura.</p>
+
+            <div id="container-cards">
+                <div class="cards">
+                    <img src="https://images.unsplash.com/photo-1611824916173-508ca2931d4d?q=80&w=1486&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mulher Treinando">
+
+                    <div class="container-text-card">
+                        <h2>Aulas e Modalidades</h2>
+                        <p class="paragraph-card">Conheça nossas aulas de treinamento funcional e Muay Thai, adaptadas para todas as idades e níveis de condicionamento.</p>
+                        <a href="#">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mulher Treinando">
+
+                    <div class="container-text-card">
+                        <h2>Treinos Personalizados</h2>
+                        <p class="paragraph-card">Atendimento individualizado com programas personalizados para suas necessidades específicas e objetivos.</p>
+                        <a href="#">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="https://images.unsplash.com/photo-1623874514711-0f321325f318?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mulher Treinando">
+
+                    <div class="container-text-card">
+                        <h2>Nossa Estrutura</h2>
+                        <p class="paragraph-card">Conheça nosso espaço, equipamentos e a brinquedoteca com monitora para as crianças enquanto os pais treinam.</p>
+                        <a href="#">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <button id="button-welcome-section">
+                Experimente uma aula gratuita
+            </button>
+        </section>
+
+        <footer>
+            <div id="container-footer">
+                <div class="container-title-footer">
+                    <div class="welcome-text">
+                        <h1 id="title-footer">Studio40°</h1>
+                        <h1 id="subtitle-footer">grausfit</h1>
+                    </div>
+                    <p class="paragraph-footer">Treinamento funcional e Muay Thai para todas as idades em um ambiente acolhedor e profissional.</p>
+                </div>
+
+                <div id="container-links-footer">
+                    <h2>Links rápidos</h2>
+                    <nav>
+                        <ul id="nav-footer">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Modalidades</a></li>
+                            <li><a href="#">Treinos Personalizados</a></li>
+                            <li><a href="#">Estrutura</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="container-localization-footer">
+                    <h2>Contato & Localização</h2>
+                    <div>
+                        <div>
+                            <p class="title-icon-footer"><i data-lucide="phone" class="localization-icons"></i> WhatsApp</p>
+                        </div>
+                        <p class="subtitle-icon-footer">
+                            <a href="#" class="link-icon-footer">(00) 00000-0000</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p class="title-icon-footer"><i data-lucide="instagram" class="localization-icons"></i> Instagram</p>
+                        </div>
+                        <p class="subtitle-icon-footer">
+                            <a href="#" class="link-icon-footer">
+                                @studio40grausfit
+                            </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p class="title-icon-footer"><i data-lucide="map-pin" class="localization-icons"></i> Endereço</p>
+                        </div>
+                        <div>
+                            <p class="subtitle-icon-footer">Rua Exemplo, 123</p>
+                            <p class="subtitle-icon-footer">Bairro, Cidade - UF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-copyright-footer">
+                    <hr>
+                    <div id="container-copyright">
+                        <p>&copy; 2025 Studio40°grausfit. Todos os direitos reservados.</p>
+                        <div id="container-links-copyright">
+                        <a href="#">Política de Privacidade</a>
+                        <a href="#">Termos de Uso</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
 
     <script src="src/javaScript/openMenu.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
