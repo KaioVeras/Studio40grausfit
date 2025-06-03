@@ -91,6 +91,7 @@ p {
 
 #container-cards {
     display: flex;
+    padding: 0px 10px 0px 10px;
     flex-direction: column;
     align-items: center;
     margin-top: 50px ;
@@ -98,7 +99,8 @@ p {
 }
 
 .card {
-    width: 1300px;
+    width: 100%;
+    max-width: 1300px;
     height: 430px;  
     border-radius: 15px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
@@ -181,10 +183,6 @@ p {
         border-top-right-radius: 15px;
     }
 
-    #container-cards {
-        padding: 0;
-    }
-
     #card-text {
         width: 100%;
     }
@@ -218,11 +216,7 @@ p {
     .card {
         width: 100%;
     }
-
-    #container-cards {
-        padding: 0;
-    }
-
+    
     #card-text {
         width: 100%;
     }
@@ -230,6 +224,6 @@ p {
 
 @media (max-width: 1400px) {
     .card {
-        width: 80%;
+        width: 90%;
     }   
 }
