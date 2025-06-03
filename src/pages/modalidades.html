@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio40°grausfit</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="../styles/Modalidades/header.css">
+    <link rel="stylesheet" href="../styles/Modalidades/main.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html">
+             <p id="title">Studio40°<span>grausfit</span></p>
+        </a>
+
+        <nav id="nav-max">
+            <ul>
+                <li><a href="../../index.html" id="link-nav">Home</a></li>
+                <li><a href="modalidades.html" id="link-nav">Modalidades</a></li>
+                <li><a href="" id="link-nav">Treinos Personalizados</a></li>
+                <li><a href="" id="link-nav">Estrutura</a></li>
+                <li><a href="" id="link-nav">Contato</a></li>
+            </ul>
+            <button>Aula Experimental</button> 
+        </nav>
+
+        <button id="button-menu-min" onclick="openMenu()"></button>
+    </header>
+
+    <div id="nav-min">
+        <nav>
+            <ul>
+                <li><a href="../../index.html" id="link-nav">Home</a></li>
+                <li><a href="modalidades.html" id="link-nav">Modalidades</a></li>
+                <li><a href="" id="link-nav">Treinos Personalizados</a></li>
+                <li><a href="" id="link-nav">Estrutura</a></li>
+                <li><a href="" id="link-nav">Contato</a></li>
+            </ul>
+            <button id="button-min">Aula Experimental</button>
+        </nav>
+    </div>
+
+    <main>
+        <section id="title-section">
+            <div id="container-title-section">
+                <h1>Aulas e Modalidades</h1>
+                <div id="title-section-line">
+                    <a href="../../index.html">Home</a>
+                    <span> > </span>
+                    <p>Modalidades</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="modalidades-section">
+            <div id="container-modalidades">
+                <p id="paragraph-title">Nossas modalidades</p>
+                <h1>Treinos adaptados para todas as necessidades</h1>
+                <p id="paragraph">Oferecemos uma variedade de modalidades para atender aos seus objetivos, desde condicionamento físico até artes marciais, com opções em grupo e personalizadas.</p>
+            </div>
+        </section>
+
+        <section id="container-cards">
+            <div class="cards"></div>
+        </section>
+    </main>
+
+    <script src="../javaScript/openMenu.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -13,15 +13,17 @@
 </head>
 <body>
     <header>
-        <p id="title">Studio40°<a>grausfit</a></p>
+        <a href="index.html">
+            <p id="title">Studio40°<span>grausfit</span></p>
+        </a>
 
         <nav id="nav-max">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Modalidades</a></li>
-                <li><a href="">Treinos Personalizados</a></li>
-                <li><a href="">Estrutura</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="index.html" id="link-nav">Home</a></li>
+                <li><a href="src/pages/modalidades.html" id="link-nav">Modalidades</a></li>
+                <li><a href="" id="link-nav">Treinos Personalizados</a></li>
+                <li><a href="" id="link-nav">Estrutura</a></li>
+                <li><a href="" id="link-nav">Contato</a></li>
             </ul>
             <button>Aula Experimental</button> 
         </nav>
@@ -32,11 +34,11 @@
     <div id="nav-min">
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Modalidades</a></li>
-                <li><a href="">Treinos Personalizados</a></li>
-                <li><a href="">Estrutura</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="" id="link-nav">Home</a></li>
+                <li><a href="src/pages/modalidades.html" id="link-nav">Modalidades</a></li>
+                <li><a href="" id="link-nav">Treinos Personalizados</a></li>
+                <li><a href="" id="link-nav">Estrutura</a></li>
+                <li><a href="" id="link-nav">Contato</a></li>
             </ul>
             <button id="button-min">Aula Experimental</button>
         </nav>
@@ -53,7 +55,7 @@
 
                 <div id="area-buttons">
                     <button id="button-header-text">Agende uma aula experimental</button>
-                    <button id="button-modalidades">Conheça nossas modalidades</button>
+                    <button id="button-modalidades" onclick="window.location.href= 'src/pages/modalidades.html' ">Conheça nossas modalidades</button>
                 </div>
             </div>
 
@@ -74,8 +76,8 @@
 
                     <div class="container-text-card">
                         <h2>Aulas e Modalidades</h2>
-                        <p class="paragraph-card">Conheça nossas aulas de treinamento funcional e Muay Thai, adaptadas para todas as idades e níveis de condicionamento.</p>
-                        <a href="#">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
+                        <p class="paragraph-card">Aulas de Funcional e Muay Thai para todos. Adaptadas ao seu ritmo e idade!</p>
+                        <a href="src/pages/modalidades.html">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="cards">
@@ -111,6 +113,14 @@
                         <h1 id="subtitle-footer">grausfit</h1>
                     </div>
                     <p class="paragraph-footer">Treinamento funcional e Muay Thai para todas as idades em um ambiente acolhedor e profissional.</p>
+                    <div id="container-contato-icons-footer">
+                        <a href="#">
+                            <i data-lucide="instagram" class="contato-icons"></i>
+                        </a>
+                        <a href="#">
+                            <i data-lucide="phone" class="contato-icons"></i>
+                        </a>
+                    </div>
                 </div>
 
                 <div id="container-links-footer">

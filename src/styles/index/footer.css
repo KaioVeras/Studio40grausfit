@@ -27,6 +27,7 @@ footer {
 
 #container-footer li a {
     color: #9ca3af;
+    text-decoration: none;
 }
 
 #container-footer h2 {
@@ -99,6 +100,7 @@ footer {
 
 .link-icon-footer {
     color: #fff;
+    text-decoration: none;
 }
 
 hr {
@@ -136,6 +138,23 @@ hr {
 }
 #container-links-copyright a:hover {
     color: #fff;
+}
+
+#container-contato-icons-footer {
+    display: flex;
+    gap: 15px;
+}
+
+.contato-icons {
+    background-color: #1F2937;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.contato-icons:hover {
+    background-color: #00377B;
 }
 
 @media (max-width: 1100px) {
