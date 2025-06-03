@@ -98,3 +98,9 @@ h1 {
         width: 90%;
     }
 }
+
+@media (max-width: 400px) {
+    #container-title-section {
+        padding-right: 20%;
+    }
+}
