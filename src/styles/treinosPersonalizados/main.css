@@ -58,7 +58,7 @@ main{
 }
 
 #container-beneficios {
-    background-color: gray;
+    background-color: #E5EBF2;
     max-width: 1300px;
     width: 90%;
     margin-top: 100px;
@@ -71,14 +71,11 @@ main{
 
 #container-beneficios h1 {
     font-size: 24px;
+    text-align: center;
 }
 
 #container-beneficios h2 {
     font-size: 16px;
-}
-
-#container-cards {
-    word-wrap: wrap;
 }
 
 .cards {
@@ -104,6 +101,10 @@ main{
     width: 45px;
     border-radius: 30px;
     padding: 11px;
+}
+
+#button-modalidades-section {
+    margin: 60px 0px 60px 0px;
 }
 
 @media (max-width: 1300px) {
@@ -153,5 +154,9 @@ main{
 
     #container-treinos-personalizados {
         width: 90%;
+    }
+
+    #container-beneficios {
+        padding: 20px 20px 0px 20px;
     }
 }
