@@ -57,4 +57,101 @@ main{
     color: #fff;
 }
 
+#container-beneficios {
+    background-color: gray;
+    max-width: 1300px;
+    width: 90%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 30px 30px 0px 30px;
+}
 
+#container-beneficios h1 {
+    font-size: 24px;
+}
+
+#container-beneficios h2 {
+    font-size: 16px;
+}
+
+#container-cards {
+    word-wrap: wrap;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    word-wrap: wrap;
+}
+
+.card {
+    width: 40%;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.icons-beneficios {
+    background-color: #E5EBF2;
+    color: #00377B;
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    padding: 11px;
+}
+
+@media (max-width: 1300px) {
+    #section-treinos-personalizados {
+        flex-direction: column;
+        margin-top: 320px;
+        margin-bottom: 200px;
+    }
+
+    #section-treinos-personalizados img {
+        width: 80%;
+    }
+
+    #container-treinos-personalizados {
+        width: 80%;
+    }
+
+    #container-list {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #section-treinos-personalizados {
+        margin-top: 280px;
+    }
+
+    #container-cards {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+     #section-treinos-personalizados img {
+        width: 95%;
+    }
+
+    #container-treinos-personalizados {
+        width: 90%;
+    }
+}
