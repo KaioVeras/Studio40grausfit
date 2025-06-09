@@ -82,7 +82,7 @@ p {
     text-align: center;
 }
 
-#paragraph {
+.paragraph {
     width: 700px;
     text-align: center;
     color: #4b5563;
