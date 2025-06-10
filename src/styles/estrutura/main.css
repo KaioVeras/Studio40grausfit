@@ -14,7 +14,7 @@ main{
     max-width: 1400px;
     width: 90%;
     height: 570px;
-    margin-top: 40px;
+    margin-top: 74px;
 }
 
 #section-treinos-personalizados img {
@@ -42,6 +42,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 20px
 }
 
 .container-treino-list {
@@ -68,6 +69,44 @@ main{
     color: #00377B;
 }
 
+#section-brinquedoteca {
+    background-color: #F9FAFB;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+}
+
+#container-brinquedoteca {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+#container-treinos-brinquedoteca {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#container-brinquedoteca img {
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #C6D1E1;
+    padding: 10px;
+    border-radius: 15px;  
+}
+
 @media (max-width: 1300px) {
     #section-treinos-personalizados {
         flex-direction: column;
@@ -87,11 +126,36 @@ main{
     #container-list {
         margin-top: 20px;
     }
+
+    #section-brinquedoteca {
+        margin-top: 400px;
+    }
+
+    #container-brinquedoteca {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container-treinos-brinquedoteca {
+        width: 90%;
+    }
+
+    #container-brinquedoteca img {
+        width: 90%;
+    }
+
+    #container-brinquedoteca {
+        gap: 50px;
+    }
 }
 
 @media (max-width: 1200px) {
     #section-treinos-personalizados {
         margin-top: 570px;
+    }
+
+    #section-brinquedoteca {
+        margin-top: 380px;
     }
 }
 
@@ -100,16 +164,27 @@ main{
         margin-top: 500px;
     }
 
+    #section-brinquedoteca {
+        margin-top: 300px;
+    }
 }
 
 @media (max-width: 800px) {
     #section-treinos-personalizados {
-        margin-top: 400px;
+        margin-top: 430px;
+    }
+
+    #section-brinquedoteca {
+        margin-top: 200px;
     }
 }
 
 @media (max-width: 500px) {
-     #section-treinos-personalizados img {
+    #section-treinos-personalizados {
+        margin-top: 400px;
+    }
+
+    #section-treinos-personalizados img {
         width: 95%;
     }
 
@@ -120,5 +195,9 @@ main{
 
     .container-treino-list-button {
         align-items: center;
+    }
+
+    #section-brinquedoteca {
+        margin-top: 130px;
     }
 }
