@@ -47,6 +47,18 @@ main{
 .container-treino-list {
     display: flex;
     gap: 20px;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.container-treino-list-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#button-modalidades-section {
+    margin-top: 40px;
 }
 
 .item-list i {
@@ -56,62 +68,10 @@ main{
     color: #00377B;
 }
 
-#container-beneficios {
-    background-color: #E5EBF2;
-    max-width: 1300px;
-    width: 90%;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 15px;
-    padding: 30px 30px 0px 30px;
-}
-
-#container-beneficios h1 {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: -20px;
-}
-
-#container-beneficios h2 {
-    font-size: 16px;
-}
-
-.cards {
-    display: flex;
-    gap: 20px;
-    word-wrap: wrap;
-    margin-bottom: -20px;
-}
-
-.card {
-    width: 40%;
-    height: 200px;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.icons-beneficios {
-    background-color: #E5EBF2;
-    color: #00377B;
-    height: 45px;
-    width: 45px;
-    border-radius: 30px;
-    padding: 11px;
-}
-
-#button-modalidades-section {
-    margin: 60px 0px 60px 0px;
-}
-
 @media (max-width: 1300px) {
     #section-treinos-personalizados {
         flex-direction: column;
-        margin-top: 600px;
+        margin-top: 630px;
         margin-bottom: 200px;
     }
 
@@ -131,33 +91,20 @@ main{
 
 @media (max-width: 1200px) {
     #section-treinos-personalizados {
-        margin-top: 530px;
+        margin-top: 570px;
     }
 }
 
 @media (max-width: 1000px) {
     #section-treinos-personalizados {
-        margin-top: 450px;
+        margin-top: 500px;
     }
 
-    #container-cards {
-        width: 100%;
-    }
-
-    .cards {
-        flex-direction: column;
-        width: 100%;
-        
-    }
-
-    .card {
-        width: 100%;
-    }
 }
 
 @media (max-width: 800px) {
     #section-treinos-personalizados {
-        margin-top: 350px;
+        margin-top: 400px;
     }
 }
 
@@ -171,7 +118,7 @@ main{
         margin-top: -70px;
     }
 
-    #container-beneficios {
-        padding: 30px 10px 0px 10px;
+    .container-treino-list-button {
+        align-items: center;
     }
 }
