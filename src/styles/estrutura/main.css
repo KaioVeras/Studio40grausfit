@@ -59,7 +59,11 @@ main{
 }
 
 #button-modalidades-section {
-    margin-top: 40px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 .item-list i {
