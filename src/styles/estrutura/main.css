@@ -111,6 +111,10 @@ main{
     border-radius: 15px;  
 }
 
+footer {
+    margin-top: 60px;
+}
+
 @media (max-width: 1300px) {
     #section-treinos-personalizados {
         flex-direction: column;
