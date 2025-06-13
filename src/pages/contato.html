@@ -1,11 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="../styles/Modalidades/header.css">
+    <link rel="stylesheet" href="../styles/Modalidades/main.css">
+    <link rel="stylesheet" href="../styles/index/footer.css">
+
+    <link rel="shortcut icon" href="../assets/favicon.svg" type="image/x-icon">
 </head>
 <body>
-    Contato fututo
+    <header>
+        <a href="../../index.html">
+            <p id="title">Studio40°<span>grausfit</span></p>
+        </a>
+
+        <nav id="nav-max">
+            <ul>
+                <li><a href="../../index.html" id="link-nav">Home</a></li>
+                <li><a href="modalidades.html" id="link-nav">Modalidades</a></li>
+                <li><a href="treinosPersonalizados.html" id="link-nav">Treinos Personalizados</a></li>
+                <li><a href="estrutura.html" id="link-nav">Estrutura</a></li>
+                <li><a href="" id="link-nav">Contato</a></li>
+            </ul>
+            <button>Aula Experimental</button> 
+        </nav>
+
+        <button id="button-menu-min" onclick="openMenu()"></button>
+    </header>
+
+    <div id="nav-min">
+        <nav>
+            <ul>
+                <li><a href="../../index.html" id="link-nav">Home</a></li>
+                <li><a href="modalidades.html" id="link-nav">Modalidades</a></li>
+                <li><a href="treinosPersonalizados.html" id="link-nav">Treinos Personalizados</a></li>
+                <li><a href="estrutura.html" id="link-nav">Estrutura</a></li>
+                <li><a href="" id="link-nav">Contato</a></li>
+            </ul>
+            <button id="button-min">Aula Experimental</button>
+        </nav>
+    </div>
+
+    <main>
+        <section id="title-section">
+            <div id="container-title-section">
+                <h1>Contato</h1>
+                <div id="title-section-line">
+                    <a href="../../index.html">Home</a>
+                    <span> > </span>
+                    <p>Contato</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="modalidades-section">
+            <div id="container-modalidades">
+                <p id="paragraph-title">Nossas modalidades</p>
+                <h1>Treinos adaptados para todas as necessidades</h1>
+                <p class="paragraph">Oferecemos uma variedade de modalidades para atender aos seus objetivos, desde condicionamento físico até artes marciais, com opções em grupo e personalizadas.</p>
+            </div>
+        </section>
+
+        <section id="container-cards">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/6455782/pexels-photo-6455782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="muay thai">
+
+                <div id="card-text">
+                    <h3>Treinamento Funcional em Grupo</h3>
+
+                    <p>
+                        Aulas dinâmicas e energéticas com exercícios que trabalham diversas capacidades físicas simultaneamente. Ideal para melhorar condicionamento, força e mobilidade.
+                    </p>
+
+                    <div id="card-text-list">
+                        <ul>
+                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Aulas em grupo</p></li>
+                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Diversos horários disponíveis</p></li>
+                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Para iniciantes e avançados</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="card-2">
+                <div id="card-text">
+                    <h3>Muay Thai</h3>
+
+                    <p>
+                        Arte marcial tailandesa que combina técnicas de golpes com pés, joelhos, cotovelos e punhos. Excelente para condicionamento físico, autodefesa e disciplina.
+                    </p>
+
+                    <div id="card-text-list">
+                        <ul>
+                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Instrutores certificados</p></li>
+                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Aulas para todas as idades e níveis</p></li>
+                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Área exclusiva com equipamentos profissionais</p></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <img id="img-card-2" src="https://images.unsplash.com/photo-1611816153165-fed23698666d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="muay thai">
+            </div>
+
+            <button id="button-modalidades-section">Experimente uma aula gratuita</button>
+        </section>
+
+        <footer>
+            <div id="container-footer">
+                <div class="container-title-footer">
+                    <div class="title-text-footer">
+                        <h1 id="title-footer">Studio40°</h1>
+                        <h1 id="subtitle-footer">grausfit</h1>
+                    </div>
+                    <p class="paragraph-footer">Treinamento funcional e Muay Thai para todas as idades em um ambiente acolhedor e profissional.</p>
+                    <div id="container-contato-icons-footer">
+                        <a href="https://www.instagram.com/studio40grausfit?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                            <i data-lucide="instagram" class="contato-icons"></i>
+                        </a>
+                        <a href="#">
+                            <i data-lucide="phone" class="contato-icons"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="container-links-footer">
+                    <h2>Links rápidos</h2>
+                    <nav>
+                        <ul id="nav-footer">
+                            <li><a href="../../index.html">Home</a></li>
+                            <li><a href="modalidades.html">Modalidades</a></li>
+                            <li><a href="treinosPersonalizados.html">Treinos Personalizados</a></li>
+                            <li><a href="estrutura.html">Estrutura</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="container-localization-footer">
+                    <h2>Contato & Localização</h2>
+                    <div>
+                        <div>
+                            <p class="title-icon-footer"><i data-lucide="phone" class="localization-icons"></i> WhatsApp</p>
+                        </div>
+                        <p class="subtitle-icon-footer">
+                            <a href="#" class="link-icon-footer">(00) 00000-0000</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p class="title-icon-footer"><i data-lucide="instagram" class="localization-icons"></i> Instagram</p>
+                        </div>
+                        <p class="subtitle-icon-footer">
+                            <a href="https://www.instagram.com/studio40grausfit?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="link-icon-footer">
+                                @studio40grausfit
+                            </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p class="title-icon-footer"><i data-lucide="map-pin" class="localization-icons"></i> Endereço</p>
+                        </div>
+                        <div>
+                            <p class="subtitle-icon-footer">Rua Exemplo, 123</p>
+                            <p class="subtitle-icon-footer">Bairro, Cidade - UF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-copyright-footer">
+                    <hr>
+                    <div id="container-copyright">
+                        <p>&copy; 2025 Studio40°grausfit. Todos os direitos reservados.</p>
+                        <div id="container-links-copyright">
+                        <a href="#">Política de Privacidade</a>
+                        <a href="#">Termos de Uso</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="../javaScript/openMenu.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
