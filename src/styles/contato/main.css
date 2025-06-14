@@ -180,7 +180,7 @@ footer {
     }
 
     .cards-contato-big {
-        padding: 40px;;
+        padding: 40px;
     }
 
     #container-p-horarios {
@@ -195,5 +195,11 @@ footer {
 
     #container-cards-big {
         margin-top: -30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cards-contato-big {
+        padding: 20px;
     }
 }
