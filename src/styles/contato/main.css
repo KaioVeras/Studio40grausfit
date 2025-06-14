@@ -47,6 +47,10 @@ footer {
     gap: 10px;
 }
 
+.container-cards a {
+    width: 100%;
+}
+
 .cards-contato-big {
     display: flex;
     flex-direction: column;

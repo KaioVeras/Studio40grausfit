@@ -9,6 +9,7 @@ header {
     width: 100%;
     position: fixed;
     border-bottom: 1px solid #f6f6f6;
+    z-index: 1000;
 }
 
 a {
@@ -38,6 +39,7 @@ a {
     position: fixed;
     margin-top: 75px;
     width: 100%;
+    z-index: 1000;
 }
 
 #nav-min nav {
