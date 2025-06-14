@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../styles/Modalidades/header.css">
     <link rel="stylesheet" href="../styles/Modalidades/main.css">
     <link rel="stylesheet" href="../styles/index/footer.css">
+    <link rel="stylesheet" href="../styles/contato/main.css">
 
     <link rel="shortcut icon" href="../assets/favicon.svg" type="image/x-icon">
 </head>
@@ -60,56 +61,62 @@
 
         <section id="modalidades-section">
             <div id="container-modalidades">
-                <p id="paragraph-title">Nossas modalidades</p>
-                <h1>Treinos adaptados para todas as necessidades</h1>
-                <p class="paragraph">Oferecemos uma variedade de modalidades para atender aos seus objetivos, desde condicionamento físico até artes marciais, com opções em grupo e personalizadas.</p>
+                <p id="paragraph-title">Contato</p>
+                <h1>Entre em contato conosco</h1>
+                <p class="paragraph">Estamos prontos para ajudá-lo! Entre em contato diretamente pelo WhatsApp ou Instagram para agendar sua aula experimental gratuita e tirar todas as suas dúvidas.</p>
             </div>
         </section>
 
-        <section id="container-cards">
-            <div class="card">
-                <img src="https://images.pexels.com/photos/6455782/pexels-photo-6455782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="muay thai">
+        <section id="container-cards-contato">
+            <h1>Fale conosco</h1>
 
-                <div id="card-text">
-                    <h3>Treinamento Funcional em Grupo</h3>
-
-                    <p>
-                        Aulas dinâmicas e energéticas com exercícios que trabalham diversas capacidades físicas simultaneamente. Ideal para melhorar condicionamento, força e mobilidade.
-                    </p>
-
-                    <div id="card-text-list">
-                        <ul>
-                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Aulas em grupo</p></li>
-                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Diversos horários disponíveis</p></li>
-                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Para iniciantes e avançados</p></li>
-                        </ul>
+            <div class="container-cards">
+                <div class="cards-contato">
+                    <i data-lucide="message-circle" class="icons-contato" id="icon-whatsapp"></i>
+                    <h2>WhatsApp</h2>
+                    <p class="p-title">(00) 00000-0000</p>
+                    <p>Agende sua aula experimental</p>
+                </div>
+                <div class="cards-contato">
+                    <i data-lucide="instagram" class="icons-contato" id="icon-instagram"></i>
+                    <h2>Instagram</h2>
+                    <p class="p-title">@studio40grausfit</p>
+                    <p>Acompanhe nossas novidades</p>
+                </div>
+            </div>
+            <div class="container-cards" id="container-cards-big">
+                <div class="cards-contato-big">
+                    <i data-lucide="clock" class="icons-contato" id="icon-clock"></i>
+                    <h2>Horário de Funcionamento</h2>
+                    <div class="container-horario">
+                        <p>Segunda - Sexta: </p>
+                        <div id="container-p-horarios">
+                            <p class="p-horarios" id="separador">6h às 13h</p>
+                            <p class="p-horarios">16h às 21h</p>
+                        </div>
+                    </div>
+                    <div class="container-horario">
+                        <p>Sábado: </p>
+                        <p class="p-horarios">9h ás 11h</p>
+                    </div>
+                    <div class="container-horario">
+                        <p>Domingo: </p>
+                        <p class="p-horarios" id="p-fechado">Fechado</p>
+                    </div>
+                </div>
+                <div class="cards-contato-big" id="card-location">
+                    <i data-lucide="map-pin" class="icons-contato" id="icon-map"></i>
+                    <h2>Localização</h2>
+                    <div id="container-endereco">
+                        <p id="title-location">Endereço: </p>
+                        <p>Rua Exemplo, 123</p>
+                        <p>Bairro, Cidade - UF</p>
+                        <p>CEP 00000-000</p>
                     </div>
                 </div>
             </div>
-
-            <div class="card" id="card-2">
-                <div id="card-text">
-                    <h3>Muay Thai</h3>
-
-                    <p>
-                        Arte marcial tailandesa que combina técnicas de golpes com pés, joelhos, cotovelos e punhos. Excelente para condicionamento físico, autodefesa e disciplina.
-                    </p>
-
-                    <div id="card-text-list">
-                        <ul>
-                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Instrutores certificados</p></li>
-                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Aulas para todas as idades e níveis</p></li>
-                            <li class="item-text-list"><i class="fa-solid fa-check"></i><p>Área exclusiva com equipamentos profissionais</p></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <img id="img-card-2" src="https://images.unsplash.com/photo-1611816153165-fed23698666d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="muay thai">
-            </div>
-
-            <button id="button-modalidades-section">Experimente uma aula gratuita</button>
         </section>
-
+      
         <footer>
             <div id="container-footer">
                 <div class="container-title-footer">
@@ -126,6 +133,8 @@
                             <i data-lucide="phone" class="contato-icons"></i>
                         </a>
                     </div>
+                    <a href="https://github.com/KaioVeras" target="_blank" class="link-icon-footer" id="a-nome">Kaio Vítor Pinheiro Veras</a>
+                    <a href="https://ucb.catolica.edu.br/" target="_blank" class="link-icon-footer" id="a-nome">Universidade Católica de brasília</a>
                 </div>
 
                 <div id="container-links-footer">
@@ -136,7 +145,7 @@
                             <li><a href="modalidades.html">Modalidades</a></li>
                             <li><a href="treinosPersonalizados.html">Treinos Personalizados</a></li>
                             <li><a href="estrutura.html">Estrutura</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href="contato.html">Contato</a></li>
                         </ul>
                     </nav>
                 </div>

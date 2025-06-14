@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    margin-top: 60px;
+}
+
+#container-cards-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1300px;
+    margin-top: 60px;
+    gap: 60px;
+}
+
+#container-cards-contato h1 {
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+
+#container-cards-contato h2, #container-cards-contato h2 {
+    color: #334155;
+    text-align: center;
+}
+
+#container-cards-contato .p-title {
+    font-size: 18px;
+    color: #1E3A8A;
+}
+
+.cards-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E2E8F0;
+    width: 430px;
+    height: 270px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.cards-contato-big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E2E8F0;
+    width: 430px;
+    height: 370px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+#container-cards-big {
+    margin-top: -20px;
+}
+
+#container-p-horarios {
+    display: flex;
+    gap: 4px;
+}
+
+#separador {
+    border-right: 2px solid gray;
+    padding-right: 4px;
+}
+
+#card-location {
+    gap: 0px;
+}
+
+#card-location h2 {
+    margin: 20px 10px 0px 10px;
+}
+
+#title-location {
+    font-weight: bold;
+    color: #000;
+}
+
+#container-endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    gap: 10px;
+}
+
+.cards-contato:hover, .cards-contato-big:hover {
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.container-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.icons-contato {
+    width: 80px;
+    height: 80px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#icon-whatsapp {
+    background-color: #F0FDF4;
+    color: #22C55E;
+}
+
+#icon-instagram {
+    background-color: #FDF2F8;
+    color: #EC4899;
+}
+
+#icon-clock {
+    background-color: #EFF6FF;
+    color: #1E3A8A;
+}
+
+#icon-map {
+    background-color: #FAF5FF;
+    color: #9333EA;
+}
+
+.container-horario {
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.p-horarios {
+    font-weight: 500;
+}
+
+#p-fechado {
+    color: #EF4444;
+}
+
+@media (max-width: 950px) {
+    .container-cards {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .cards-contato, .cards-contato-big {
+        width: 100%;
+    }
+
+    #container-cards-contato {
+        gap: 10px;
+        width: 100%;
+    }
+
+    #container-cards-contato h1 {
+        margin-bottom: -10px;
+    }
+
+    #separador {
+        border: none;
+    }
+}
+
+@media (max-width: 780px) {
+    .container-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-contato-big {
+        padding: 40px;;
+    }
+
+    #container-p-horarios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container-cards-contato {
+        gap: 0px;
+    }
+
+    #container-cards-big {
+        margin-top: -30px;
+    }
+}
