@@ -20,5 +20,5 @@ function openMenu() {
         icon.classList.remove("fa-x");
         icon.classList.add("fa-bars");
         containerMenuMin.style.display = "none";
-  }
+    }
 }
