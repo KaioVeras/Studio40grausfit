@@ -185,7 +185,7 @@ hr {
 }
 
 @media (max-width: 600px) {
-     .paragraph-footer {
+    .paragraph-footer {
         width: 95%;
     }
 }

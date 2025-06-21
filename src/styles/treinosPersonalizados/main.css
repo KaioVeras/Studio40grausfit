@@ -151,7 +151,7 @@ main{
 }
 
 @media (max-width: 500px) {
-     #section-treinos-personalizados img {
+    #section-treinos-personalizados img {
         width: 95%;
     }
 
