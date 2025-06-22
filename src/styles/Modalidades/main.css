@@ -150,7 +150,7 @@ p {
     gap: 10px;
 }
 
-.item-text-list i {
+.item-text-list svg {
     background-color: #E5EBF2;
     padding: 7px;
     border-radius: 20px;
