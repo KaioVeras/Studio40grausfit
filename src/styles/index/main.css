@@ -16,7 +16,6 @@ body {
 }
 
 #header {
-    background-image: url(../../assets/);
     padding: 200px 30px 200px 30px;
     display: flex;
     align-items: center;
