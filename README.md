@@ -29,54 +29,17 @@ Este é o website oficial do Studio40°grausfit, desenvolvido para apresentar no
 
 ### Pré-requisitos
 
-- Node.js (versão 16 ou superior)
-- npm ou yarn
+- Navegador web moderno (Chrome, Firefox, Safari, Edge e outros...)
 
-### Passos para instalação
+### Passo para execução
 
-1. Clone o repositório:
-```bash
-git clone <URL_DO_REPOSITORIO>
-cd studio40grausfit-website
-```
+1. Clone o repositório
+   `https://github.com/KaioVeras/Studio40grausfit.git`
 
-2. Instale as dependências:
-```bash
-npm install
-# ou
-yarn install
-```
+2. Navegue até o diretório do projeto
+   `cd Studio40grausfit`
 
-3. Execute o projeto em modo de desenvolvimento:
-```bash
-npm run dev
-# ou
-yarn dev
-```
-
-4. Acesse o projeto em `http://localhost:8080`
-
-## 📁 Estrutura do Projeto
-
-```
-src/
-├── components/          # Componentes reutilizáveis
-│   ├── ui/             # Componentes base (shadcn/ui)
-│   ├── ContatoSection.tsx
-│   ├── Footer.tsx
-│   ├── HeroSection.tsx
-│   └── NavBar.tsx
-├── pages/              # Páginas da aplicação
-│   ├── Home.tsx
-│   ├── Modalidades.tsx
-│   ├── TreinosPersonalizados.tsx
-│   ├── Estrutura.tsx
-│   ├── Contato.tsx
-│   └── Index.tsx
-├── hooks/              # Custom hooks
-├── lib/                # Utilitários e configurações
-└── App.tsx             # Componente principal
-```
+3. Abra o arquivo `index.html` sem seu navegador
 
 ## 🎨 Páginas Disponíveis
 
@@ -85,6 +48,12 @@ src/
 - **Treinos Personalizados** (`/treinos-personalizados`) - Informações sobre personal trainer
 - **Estrutura** (`/estrutura`) - Fotos e descrição da academia
 - **Contato** (`/contato`) - Informações de contato e localização
+
+## 🌐 Navegação
+
+- Página inicial com menu para as duas seções
+- Subpáginas detalhadas sobre Brasília e Descobrimento
+- Links internos para diferentes sessões
 
 ## 📱 Contato
 
