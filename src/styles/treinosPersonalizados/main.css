@@ -51,11 +51,16 @@ main{
     gap: 20px;
 }
 
-.item-list i {
+.item-list svg {
     background-color: #00377B;
     padding: 7px;
     border-radius: 20px;
     color: #fff;
+}
+
+li .title-list-treino-personalizado {
+    color: #000;
+    font-weight: 500;
 }
 
 #container-beneficios {
@@ -97,7 +102,7 @@ main{
     background-color: #fff;
 }
 
-.icons-beneficios {
+.card svg {
     background-color: #E5EBF2;
     color: #00377B;
     height: 45px;
