@@ -49,35 +49,17 @@ Este é o website oficial do Studio40°grausfit, desenvolvido para apresentar no
 - **Estrutura** (`/estrutura`) - Fotos e descrição da academia
 - **Contato** (`/contato`) - Informações de contato e localização
 
-## 🌐 Navegação
-
-- Página inicial com menu para as duas seções
-- Subpáginas detalhadas sobre Brasília e Descobrimento
-- Links internos para diferentes sessões
-
 ## 📱 Contato
 
-- **WhatsApp**: (00) 00000-0000
+- **WhatsApp**: (61) 99193-3973
 - **Instagram**: [@studio40grausfit](https://instagram.com/studio40grausfit)
-- **Endereço**: Rua Exemplo, 123 - Bairro, Cidade - UF
+- **Endereço**: St. Hab. Vicente Pires lote 19 loja 2 - Taguatinga, Brasília - DF, 72006-115
 
 ## 🕒 Horários de Funcionamento
 
-- **Segunda a Sexta**: 06:00 - 22:00
-- **Sábado**: 08:00 - 14:00
+- **Segunda a Sexta**: 06:00 - 13:00 / 16:00 - 21:00
+- **Sábado**: 09:00 - 11:00
 - **Domingo**: Fechado
-
-## 🚀 Deploy
-
-O projeto está configurado para deploy automático. Para fazer deploy manual:
-
-```bash
-npm run build
-# ou
-yarn build
-```
-
-Os arquivos de produção serão gerados na pasta `dist/`.
 
 ## 🤝 Contribuição
 
@@ -88,7 +70,3 @@ Este é um projeto privado do Studio40°grausfit. Para sugestões ou melhorias, 
 © 2024 Studio40°grausfit. Todos os direitos reservados.
 
 ---
-
-**Desenvolvido com ❤️ para o Studio40°grausfit**
-
-*Treinando com intensidade e paixão*
